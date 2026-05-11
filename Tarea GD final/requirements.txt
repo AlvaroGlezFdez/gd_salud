@@ -1,0 +1,47 @@
+'''
+# ─── Proyecto Final · Gestión de Datos · UAX 2026 ──────────────────────────
+# Álvaro González Fernández
+#
+# Cubre TODO el proyecto: notebooks (fases 1-6) + dashboard Streamlit.
+# Versiones mínimas testadas en Windows 11 + Python 3.11.
+#
+# Instalación:    pip install -r requirements.txt
+# Dashboard:      streamlit run dashboard.py
+
+# ── Núcleo de datos ────────────────────────────────────────────────────────
+pandas>=2.0
+numpy>=1.24
+
+# ── Acceso a BD ────────────────────────────────────────────────────────────
+psycopg2-binary>=2.9     # PostgreSQL (origen)
+SQLAlchemy>=2.0          # capa unificada para pandas.read_sql
+
+# ── Visualización ──────────────────────────────────────────────────────────
+matplotlib>=3.7          # notebooks (1-5)
+seaborn>=0.13            # clustering
+networkx>=3.0            # diagrama ER (notebook 01)
+plotly>=5.20             # dashboard
+
+# ── Machine Learning ───────────────────────────────────────────────────────
+scikit-learn>=1.3        # PCA, KMeans, RandomForest, métricas
+xgboost>=2.0             # modelo de churn (Fase 6)
+joblib>=1.3              # serialización del modelo
+
+# ── Dashboard ──────────────────────────────────────────────────────────────
+streamlit>=1.30
+
+# ── Generación / verificación de PDF ───────────────────────────────────────
+reportlab>=4.0           # memoria_proyecto.pdf
+pypdf>=4.0               # verificación de páginas
+
+# ── Notebooks ──────────────────────────────────────────────────────────────
+jupyter>=1.0
+ipykernel>=6.0
+'''
+
+streamlit
+pandas
+matplotlib
+seaborn
+joblib
+scikit-learn
