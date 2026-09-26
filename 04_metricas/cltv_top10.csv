@@ -1,0 +1,11 @@
+customer_id,first_name,last_name,ingresos,margen_ratio,frecuencia,anios_relacion,cltv
+183,Alejandro,Pérez,24922.0,0.4,33,6.79,2240278.36
+212,Sergio,Álvarez,21281.51,0.4,34,6.54,1893376.58
+228,Carlos,García,22268.34,0.4,30,6.94,1855647.57
+456,David,Díaz,21566.04,0.4,31,6.38,1708237.37
+750,Laura,García,19911.4,0.4,31,6.75,1685476.79
+500,Sergio,Martínez,19215.39,0.4,32,6.56,1614889.08
+343,Alejandro,Fernández,21167.8,0.4,30,6.33,1611300.23
+306,Carlos,Pérez,19816.97,0.4,28,6.96,1554877.81
+214,Javier,Ruiz,19872.08,0.4,29,6.59,1526221.22
+163,Ana,Martínez,18357.35,0.4,31,6.67,1525218.11
